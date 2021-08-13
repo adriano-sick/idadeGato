@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="favicon icon" href="assets/img/favicon-512x512.png">
+    <title>Qual a idade do meu gato</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/index.js" defer></script>
+
+    <!-- Icon import -->
+    <script src="https://kit.fontawesome.com/0b3fd12347.js" crossorigin="anonymous"></script>
+
+    <!-- font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Quantos anos humanos meu gato tem?</h1>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+
+        <p class="idade" id="ageBox">
+            Seu gato tem -<span id="anos">XX</span>- anos humanos de idade!
+        </p>
+
+        <table class="trivia" id="table">
+            <tr>
+                <td class="info">
+                    <p id="info">Aos 15 anos, Brittany Wenger desenvolveu uma forma de estudar a genética de pacientes
+                     e encontrou uma maneira de descobrir o risco de câncer. Com essa pesquisa, ela ganhou
+                     o prêmio Google Science Fair. Porém, ela nunca caçou um rato e deixou de presente pra alguem.
+                     -- Gatos 1 x 0 Brittany Wenger --
+                    </p> 
+                </td>
+                <td class="pic">
+                    <img class="image" src="./" id="pic">
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <div class="input-container">
+            <input type="number" min="1" max="50" placeholder="idade" class="gato" id="idade"></input>
+        </div>
+        <div class="btn-container">
+            <aside class="btn" id="button" onclick="calcular()">
+                Calcular!
+                <i class="fas fa-cat"></i>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <table>
+            <tr>
+                <td class="ad"></td>
+                <!-- <td class="copyright">Adriano Siqueira, 2021 &copy; - Todos os direitos reservados</td> -->
+            </tr>
+        </table>
+    </footer>
+    
+</body>
+</html>
